@@ -87,53 +87,7 @@ function CreatePlots
 	hf1.WindowStyle = 'docked';
 
 	% plot and animated line for position
-% 	a1 = subplot( 1,2,1 );
-% 	title( 'Position' );
-% 	xlabel( 'Frame' )
-% 	ylabel( 'Position (m)' )
-% 
-% 	px = animatedline;
-% 	px.MaximumNumPoints = 1000;
-% 	px.Marker = '.';
-% 	px.LineWidth = 0.5;
-% 	px.Color = [ 1 0 0 ];
-% 
-% 	py = animatedline;
-% 	py.MaximumNumPoints = 1000;
-% 	py.LineWidth = 0.5;
-% 	py.Color = [ 0 1 0 ];
-% 	py.Marker = '.';
-% 
-% 	pz = animatedline;
-% 	pz.MaximumNumPoints = 1000;
-% 	pz.LineWidth = 0.5;
-% 	pz.Color = [ 0 0 1 ];
-% 	pz.Marker = '.';
 
-% 	% plot and animated line for rotation
-% 	a2 = subplot( 2,2,2 );
-% 	title( 'Rotation' );
-% 	xlabel( 'Frame' )
-% 	ylabel( 'Rotation (deg)' )
-% 
-% 	rx=animatedline;
-% 	rx.MaximumNumPoints = 1000;
-% 	rx.Marker = '.';
-% 	rx.LineWidth = 0.5;
-% 	rx.Color = [ 1 0 0 ];
-% 
-% 	ry = animatedline;
-% 	ry.MaximumNumPoints = 1000;
-% 	ry.Marker = '.';
-% 	ry.LineWidth = 0.5;
-% 	ry.Color = [ 0 1 0 ];
-% 
-% 	rz = animatedline;
-% 	rz.MaximumNumPoints = 1000;
-% 	rz.Marker = '.';
-% 	rz.LineWidth = 0.5;
-% 	rz.Color = [ 0 0 1];
-%     
     % plot and animated line for x-y plane
     a4 = subplot( 1,1,1 );
 	title( 'x-y-z' );
